@@ -72,26 +72,32 @@ btn.onclick = function(){
                 tableBody.appendChild(newTr);
 
             let newTdName = document.createElement("td");
+                newTdName.setAttribute("class", "columna");
                 newTdName.innerText = users[i].name;
                     newTr.appendChild(newTdName);
 
             let newTdEmail = document.createElement("td");
+                newTdEmail.setAttribute("class", "columna");
                 newTdEmail.innerText = users[i].email;
                     newTr.appendChild(newTdEmail);
 
             let newTdAge = document.createElement("td");
+                newTdAge.setAttribute("class", "columna");
                 newTdAge.innerText = users[i].age;
                     newTr.appendChild(newTdAge);
 
-            let newTdGender = document.createElement("td");      
+            let newTdGender = document.createElement("td"); 
+                newTdGender.setAttribute("class", "columna");     
                 newTdGender.innerText = users[i].gender;
                     newTr.appendChild(newTdGender);
 
-            let newTdFace = document.createElement("td");               
+            let newTdFace = document.createElement("td"); 
+                newTdFace.setAttribute("class", "columna");              
                 newTdFace.innerText = users[i].social[0].url;
                     newTr.appendChild(newTdFace);
-                    
-            let newTdTwit = document.createElement("td");               
+
+            let newTdTwit = document.createElement("td"); 
+                newTdTwit.setAttribute("class", "columna");              
                 newTdTwit.innerText = users[i].social[1].url;
                     newTr.appendChild(newTdTwit);
         }
