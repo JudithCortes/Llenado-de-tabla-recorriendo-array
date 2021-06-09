@@ -5,15 +5,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-#table-container{
-    position: relative;
-    width :780px;
+.mi-tabla{
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
-#table {
-    width: 250px;
-    border-collapse: collapse;
-  }
+#table-container{
+    position: relative;
+    width :900px;
+}
+
 #table th {
     width: 150px;
     height: 35px;
@@ -26,12 +27,13 @@
     height: 35px;
     background-color:#fff;
     border: 1px solid blue;
+    font-weight: bold;
   }
 
 tr{
     display: flex;
     height: 40px;
-    width :900px;
+    width :100%;
     align-items: center;
 }
 
@@ -43,4 +45,17 @@ th, td{
 
 td{
     font-size: 11px;
+}
+.buttom-container{
+    width :900px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+button{
+    width: 125px;
+    height: 56px;
+    background: yellow;
+    font-weight: bold;
+
 }
