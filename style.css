@@ -1,3 +1,46 @@
-.table-container{
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#table-container{
     position: relative;
+    width :780px;
+}
+
+#table {
+    width: 250px;
+    border-collapse: collapse;
+  }
+#table th {
+    width: 150px;
+    height: 35px;
+    background-color:blue;
+    color: #fff;
+  }
+
+  #table td{
+    width: 150px;
+    height: 35px;
+    background-color:#fff;
+    border: 1px solid blue;
+  }
+
+tr{
+    display: flex;
+    height: 40px;
+    width :900px;
+    align-items: center;
+}
+
+th, td{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+td{
+    font-size: 11px;
 }
